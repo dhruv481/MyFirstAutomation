@@ -1,6 +1,9 @@
 package com.first.Test;
 
+import java.awt.Button;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,9 +32,10 @@ public class FirstTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.youtube.com/");
 		// driver.findElement(By.name("search_query")).sendKeys("testng", Keys.ENTER);
-		driver.findElement(By.name("search_query")).sendKeys("boo", Keys.SPACE, "Thang", Keys.SPACE);
-		System.out.println(driver.getTitle());
+		driver.findElement(By.name("search_query")).sendKeys("Boo", Keys.SPACE, "Thang");
+		driver.findElement(By.xpath("//*[@id=\"search-icon-legacy\"]")).click();
 		Thread.sleep(5000);
+		System.out.println(driver.getTitle());
 		driver.quit();
 	}
 }
