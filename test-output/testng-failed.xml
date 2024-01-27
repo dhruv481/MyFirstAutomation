@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.first.Test.FirstTest">
+      <class name="com.first.Test.orangeHRM">
         <methods>
-          <include name="TestYoutube"/>
+          <include name="launchApp"/>
         </methods>
-      </class> <!-- com.first.Test.FirstTest -->
+      </class> <!-- com.first.Test.orangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

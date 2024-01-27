@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-16T23:54:12 IST" name="Default suite" finished-at="2024-01-16T23:54:24 IST" duration-ms="12447">
+  <suite started-at="2024-01-17T00:52:59 IST" name="Default suite" finished-at="2024-01-17T00:53:34 IST" duration-ms="34721">
     <groups>
     </groups>
-    <test started-at="2024-01-16T23:54:12 IST" name="Default test" finished-at="2024-01-16T23:54:24 IST" duration-ms="12447">
-      <class name="com.first.Test.FirstTest">
-        <test-method signature="TestYoutube()[pri:0, instance:com.first.Test.FirstTest@206a70ef]" started-at="2024-01-16T23:54:12 IST" name="TestYoutube" finished-at="2024-01-16T23:54:24 IST" duration-ms="12382" status="PASS">
+    <test started-at="2024-01-17T00:52:59 IST" name="Default test" finished-at="2024-01-17T00:53:34 IST" duration-ms="34721">
+      <class name="com.first.Test.orangeHRM">
+        <test-method signature="launchApp()[pri:0, instance:com.first.Test.orangeHRM@557caf28]" started-at="2024-01-17T00:52:59 IST" name="launchApp" finished-at="2024-01-17T00:53:34 IST" duration-ms="34648" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestYoutube -->
-      </class> <!-- com.first.Test.FirstTest -->
+        </test-method> <!-- launchApp -->
+      </class> <!-- com.first.Test.orangeHRM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
